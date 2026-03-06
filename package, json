@@ -1,0 +1,24 @@
+{
+  "name": "geoterra-backend",
+  "version": "1.0.0",
+  "description": "Backend server for GeoTerraChainQFS — Pi Network payment approval & completion system",
+  "extendedDescription": "GeoTerraChainQFS Backend is a Node.js + Express.js server that handles Pi Network payments. It provides API routes to check balances, create payments, and receive confirmations via webhooks. Designed for integration with GeoTerraChainQFS Pi Studio app, ensuring secure transaction management for the Pan-African Web3 asset ecosystem.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["GeoTerraChainQFS", "Pi Network", "backend", "payments", "express", "nodejs"],
+  "author": "Chaboa Marie Angelina Gnangui",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
